@@ -1,0 +1,31 @@
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+.idea
+lib
+lib64
+__pycache__
+
+#Istaller logs
+pip-log.txt
+
+# Translations
+*.mo
+
+# Environment setup
+*.env
+
+venv
+app.db
+logs
