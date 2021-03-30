@@ -23,3 +23,5 @@ class Config(object):
     LANGUAGES = ['en', 'pl']
 
     MS_TRANSLATION_KEY = os.environ.get('MS_TRANSLATION_KEY')
+
+    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
